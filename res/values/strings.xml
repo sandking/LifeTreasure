@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Welcome!</string>
+    <string name="app_name">LifeTreasure</string>
+
+    <!-- public -->
+    <string name="string_more">更多</string>
+    
+    
+    <!-- search -->
+    <string name="string_active">会员卡活动</string>
+    <string name="string_active_tip">优惠活动一起来参与！</string>
+    <string name="string_nearby">附近</string>
+    <string name="string_nearby_tip">附近优惠，轻松获取！</string>
+    <string name="string_grid_separate_item_1">中餐</string>
+    <string name="string_grid_separate_item_2">西餐</string>
+    <string name="string_grid_separate_item_3">咖啡馆</string>
+    <string name="string_grid_separate_item_4">会所茶楼</string>
+    <string name="string_grid_separate_item_5">影剧院</string>
+    <string name="string_grid_separate_item_6">KTV</string>
+    <string name="string_grid_separate_item_7">酒店宾馆</string>
+    <string name="string_grid_separate_item_8">购物</string>
+
+    <string name="string_grid_business_item_1">步行街</string>
+    <string name="string_grid_business_item_2">三孝口</string>
+    <string name="string_grid_business_item_3">国购广场</string>
+    <string name="string_grid_business_item_4">宁国路</string>
+    <string name="string_grid_business_item_5">万达商圈</string>
+    <string name="string_grid_business_item_6">南七</string>
+    <string name="string_grid_business_item_7">胜利路</string>
+    <string name="string_grid_business_item_8">明珠广场</string>
+    
+    
+    <!-- more -->
+    <string name="string_more_item1">图片展示</string>
+    <string name="string_more_item2">推送设置</string>
+    <string name="string_more_item3">清除缓存</string>
+    <string name="string_more_item4">使用帮助</string>
+    <string name="string_more_item5">软件更新</string>
+    <string name="string_more_item6">关于</string>
+    <string name="string_more_item7">意见反馈</string>
+    <string name="string_more_item8"></string>
+    <string name="string_more_item9"></string>
+    <string name="string_more_item10"></string>
+
+</resources>

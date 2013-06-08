@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arrays_search_separates">
+        <item>@string/string_grid_separate_item_1</item>
+        <item>@string/string_grid_separate_item_2</item>
+        <item>@string/string_grid_separate_item_3</item>
+        <item>@string/string_grid_separate_item_4</item>
+        <item>@string/string_grid_separate_item_5</item>
+        <item>@string/string_grid_separate_item_6</item>
+        <item>@string/string_grid_separate_item_7</item>
+        <item>@string/string_grid_separate_item_8</item>
+        <item>@string/string_more</item>
+    </string-array>
+    <string-array name="arrays_search_business">
+        <item>@string/string_grid_business_item_1</item>
+        <item>@string/string_grid_business_item_2</item>
+        <item>@string/string_grid_business_item_3</item>
+        <item>@string/string_grid_business_item_4</item>
+        <item>@string/string_grid_business_item_5</item>
+        <item>@string/string_grid_business_item_6</item>
+        <item>@string/string_grid_business_item_7</item>
+        <item>@string/string_grid_business_item_8</item>
+        <item>@string/string_more</item>
+    </string-array>
+
+</resources>
