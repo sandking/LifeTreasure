@@ -68,9 +68,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="18dp"
+                    android:background="@drawable/icon_more_has_pic"
                     android:clickable="true"
-                    android:scaleType="matrix"
-                    android:background="@drawable/icon_more_has_pic" />
+                    android:scaleType="matrix" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -118,8 +118,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="18dp"
-                    android:scaleType="matrix"
-                    android:background="@drawable/icon_more_on" />
+                    android:background="@drawable/icon_more_on"
+                    android:scaleType="matrix" />
             </RelativeLayout>
 
             <RelativeLayout

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="arrays_search_separates">
+    <string-array name="arrays_search_separate_item_txt">
         <item>@string/string_grid_separate_item_1</item>
         <item>@string/string_grid_separate_item_2</item>
         <item>@string/string_grid_separate_item_3</item>
@@ -12,7 +12,7 @@
         <item>@string/string_grid_separate_item_8</item>
         <item>@string/string_more</item>
     </string-array>
-    <string-array name="arrays_search_business">
+    <string-array name="arrays_search_business_item_txt">
         <item>@string/string_grid_business_item_1</item>
         <item>@string/string_grid_business_item_2</item>
         <item>@string/string_grid_business_item_3</item>
@@ -23,5 +23,6 @@
         <item>@string/string_grid_business_item_8</item>
         <item>@string/string_more</item>
     </string-array>
+
 
 </resources>

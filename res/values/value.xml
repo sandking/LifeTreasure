@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	
+    <!-- search -->
+    <color name="color_search_grid_bg">#FFFFFFFF</color>
+    <color name="color_search_grid_txt">#FF000000</color>
+    <!-- more -->
     <color name="color_more_title_word">#FFFFFFFF</color>
     <color name="color_more_item_word">#EE333333</color>
-
+	
 </resources>

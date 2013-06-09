@@ -11,17 +11,14 @@
         android:background="@drawable/bg_more_title_bar"
         android:gravity="center_horizontal|center_vertical" >
 
-        <TextView
-            android:layout_width="wrap_content"
+        <include
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/string_more"
-            android:textColor="@color/color_more_title_word"
-            android:textSize="20sp" />
+            layout="@layout/top_search_bar" />
     </LinearLayout>
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbarStyle="outsideOverlay" >
@@ -64,7 +61,7 @@
                         android:orientation="horizontal" >
 
                         <RadioButton
-                            android:id="@+id/btn_search_separate"
+                            android:id="@+id/radiobtn_search_separate"
                             android:layout_width="fill_parent"
                             android:layout_height="42.0dip"
                             android:layout_weight="1.0"
@@ -73,7 +70,7 @@
                             android:checked="true" />
 
                         <RadioButton
-                            android:id="@+id/btn_search_business"
+                            android:id="@+id/radiobtn_search_business"
                             android:layout_width="fill_parent"
                             android:layout_height="42.0dip"
                             android:layout_weight="1.0"
@@ -86,19 +83,17 @@
             <!-- gridview -->
 
             <RelativeLayout
-                android:id="@+id/rel_btn_more_clear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:gravity="center_vertical" >
 
-                <GridView
+                <com.sk.life.view.SkGridView
                     android:id="@+id/grid_search_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:horizontalSpacing="0.0dip"
-                    android:listSelector="@null"
                     android:numColumns="3"
                     android:verticalSpacing="0.0dip" />
             </RelativeLayout>
@@ -108,7 +103,6 @@
             <LinearLayout
                 android:id="@+id/linear_search_nearby"
                 style="@style/layout_match_wrap"
-                android:layout_marginBottom="10.0dip"
                 android:layout_marginLeft="3.0dip"
                 android:layout_marginRight="3.0dip"
                 android:layout_marginTop="7.0dip"
@@ -121,11 +115,11 @@
                 android:paddingTop="5.0dip" >
 
                 <TextView
-                    style="@style/index_item_title"
+                    style="@style/style_search_item_txt_title"
                     android:text="@string/string_nearby" />
 
                 <TextView
-                    style="@style/index_item_title_tip"
+                    style="@style/style_search_item_txt_tip"
                     android:text="@string/string_nearby_tip" />
             </LinearLayout>
             <!-- active -->
@@ -133,7 +127,6 @@
             <LinearLayout
                 android:id="@+id/linear_search_active"
                 style="@style/layout_match_wrap"
-                android:layout_marginBottom="10.0dip"
                 android:layout_marginLeft="3.0dip"
                 android:layout_marginRight="3.0dip"
                 android:layout_marginTop="7.0dip"
@@ -146,11 +139,11 @@
                 android:paddingTop="5.0dip" >
 
                 <TextView
-                    style="@style/index_item_title"
+                    style="@style/style_search_item_txt_title"
                     android:text="@string/string_active" />
 
                 <TextView
-                    style="@style/index_item_title_tip"
+                    style="@style/style_search_item_txt_tip"
                     android:text="@string/string_active_tip" />
             </LinearLayout>
         </LinearLayout>

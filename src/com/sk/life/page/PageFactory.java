@@ -2,7 +2,6 @@ package com.sk.life.page;
 
 import java.util.HashMap;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 
 public class PageFactory
@@ -22,7 +21,6 @@ public class PageFactory
 		return mInstance == null ? new PageFactory(context) : mInstance;
 	}
 
-	@SuppressLint("UseSparseArrays")
 	private HashMap<Integer, BasePage> page_cache = new HashMap<Integer, BasePage>();
 
 	public BasePage create(int id)

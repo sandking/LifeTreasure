@@ -18,7 +18,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class MainActivity extends Activity
+public class MainActivity extends Activity 
 {
 	public final static String TAG = MainActivity.class.getSimpleName();
 
@@ -51,12 +51,14 @@ public class MainActivity extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_life);
-
+		
 		mPageFactory = PageFactory.getInstance(this);
-
+		
 		initControls();
 		initData();
 		setAttribute();
+		
+		mPageFactory.createPage(mCurrIndex);
 	}
 
 	void initControls()

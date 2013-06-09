@@ -2,6 +2,7 @@ package com.sk.life.page;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.view.LayoutInflater;
 import android.view.View;
 
 import com.sk.life.MainActivity;
@@ -40,6 +41,16 @@ public class BasePage implements PageCondition
 	public String[] getStringArray(int id)
 	{
 		return mContext.getResources().getStringArray(id);
+	}
+
+	public int[] getIntArray(int id)
+	{
+		return mContext.getResources().getIntArray(id);
+	}
+
+	public LayoutInflater getLayoutInflater()
+	{
+		return mainActivity.getLayoutInflater();
 	}
 
 	@Override

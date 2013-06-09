@@ -16,14 +16,20 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
-    <style name="index_item_title" parent="@style/layout_wrap_wrap">
+    <style name="style_search_item_txt_title" parent="@style/layout_wrap_wrap">
         <item name="android:textSize">18.0dip</item>
         <item name="android:textColor">#ff333333</item>
     </style>
 
-    <style name="index_item_title_tip" parent="@style/layout_wrap_wrap">
+    <style name="style_search_item_txt_tip" parent="@style/layout_wrap_wrap">
         <item name="android:textSize">16.0dip</item>
         <item name="android:textColor">#ff6b6b6b</item>
     </style>
-
+    
+        
+        <style name="style_search_bar_city" parent="@style/layout_wrap_wrap">
+            <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        </style>
+	
 </resources>

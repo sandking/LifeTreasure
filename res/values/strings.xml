@@ -9,6 +9,8 @@
     
     
     <!-- search -->
+    <string name="string_city_hefei">合肥</string>
+    <string name="string_hint_search_business">查找你要的商户</string>
     <string name="string_active">会员卡活动</string>
     <string name="string_active_tip">优惠活动一起来参与！</string>
     <string name="string_nearby">附近</string>
