@@ -202,7 +202,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
                     android:scaleType="matrix"
-                    android:src="@drawable/icon_more_arrow" />
+                    android:src="@drawable/icon_arrow_left" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -251,7 +251,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
                     android:scaleType="matrix"
-                    android:src="@drawable/icon_more_arrow" />
+                    android:src="@drawable/icon_arrow_left" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -300,7 +300,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
                     android:scaleType="matrix"
-                    android:src="@drawable/icon_more_arrow" />
+                    android:src="@drawable/icon_arrow_left" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -349,7 +349,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
                     android:scaleType="matrix"
-                    android:src="@drawable/icon_more_arrow" />
+                    android:src="@drawable/icon_arrow_left" />
             </RelativeLayout>
             <!-- ******************************************************************** -->
         </LinearLayout>

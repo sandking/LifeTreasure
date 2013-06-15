@@ -6,8 +6,7 @@
 
     <!-- public -->
     <string name="string_more">更多</string>
-    
-    
+
     <!-- search -->
     <string name="string_city_hefei">合肥</string>
     <string name="string_hint_search_business">查找你要的商户</string>
@@ -23,7 +22,6 @@
     <string name="string_grid_separate_item_6">KTV</string>
     <string name="string_grid_separate_item_7">酒店宾馆</string>
     <string name="string_grid_separate_item_8">购物</string>
-
     <string name="string_grid_business_item_1">步行街</string>
     <string name="string_grid_business_item_2">三孝口</string>
     <string name="string_grid_business_item_3">国购广场</string>
@@ -32,8 +30,17 @@
     <string name="string_grid_business_item_6">南七</string>
     <string name="string_grid_business_item_7">胜利路</string>
     <string name="string_grid_business_item_8">明珠广场</string>
-    
-    
+
+    <!-- mycenter -->
+    <string name="string_edit_username_hint">请输入您的生活宝/合论账号</string>
+    <string name="string_edit_password_hint">请输入您的密码</string>
+    <string name="string_check_login_show_password">显示密码</string>
+    <string name="string_check_login_remember_password">记住密码</string>
+    <string name="string_check_login_auto_login">自动登录</string>
+    <string name="string_txt_center_mycard">我的会员卡</string>
+    <string name="string_txt_center_myfav">我的收藏</string>
+    <string name="string_txt_center_mycomment">我的点评</string>
+
     <!-- more -->
     <string name="string_more_item1">图片展示</string>
     <string name="string_more_item2">推送设置</string>

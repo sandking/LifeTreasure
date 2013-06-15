@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_login_input_box"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_input"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <ImageView
+            style="@style/input_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_login_username" />
+
+        <EditText
+            android:id="@+id/edit_login_username"
+            style="@style/input_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_edit_username_hint"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <ImageView
+        style="@style/input_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_login_input_devider" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/img_login_password"
+            style="@style/input_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_login_password" />
+
+        <EditText
+            android:id="@+id/edit_login_password"
+            style="@style/input_bg"
+            android:layout_width="220.0dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_login_password"
+            android:hint="@string/string_edit_password_hint"
+            android:password="true"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/img_login_password_delete"
+            style="@style/input_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/icon_login_password_delete"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

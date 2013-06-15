@@ -98,8 +98,7 @@
             android:id="@+id/tab_main_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center" >
-        </android.support.v4.view.ViewPager>
+            android:layout_gravity="center" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title"
+        style="@style/layout_match_wrap"
+        android:background="@drawable/bg_more_title_bar"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <include
+            style="@style/layout_match_wrap"
+            layout="@layout/search_top_bar" />
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            style="@style/layout_match_wrap"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/list_search_histroy"
+                style="@style/layout_match_wrap" />
+
+            <Button
+                android:id="@+id/btn_clear_search_histroy"
+                style="@style/layout_wrap_wrap"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_search_histroy_clear"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

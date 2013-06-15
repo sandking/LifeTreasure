@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Theme_Sk_Activity" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
     <style name="layout_wrap_wrap">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -25,11 +31,89 @@
         <item name="android:textSize">16.0dip</item>
         <item name="android:textColor">#ff6b6b6b</item>
     </style>
-    
-        
-        <style name="style_search_bar_city" parent="@style/layout_wrap_wrap">
-            <item name="android:textSize">20.0dip</item>
+
+    <style name="style_search_bar_city" parent="@style/layout_wrap_wrap">
+        <item name="android:textSize">20.0dip</item>
         <item name="android:textColor">#FFFFFFFF</item>
-        </style>
-	
+    </style>
+
+    <style name="input_bg">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff404040</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+
+    <style name="checkbox_title">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff5d5d5d</item>
+        <item name="android:button">@drawable/checkbox_login_bg</item>
+    </style>
+
+    <style name="font12_gray_deep">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#aa666666</item>
+    </style>
+
+    <style name="font12_gray_light">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#ffb4b2b3</item>
+    </style>
+
+    <style name="font14_gray_light">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffb4b2b3</item>
+    </style>
+    
+    <style name="font14_black">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="font16_red">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffe70010</item>
+    </style>
+
+    <style name="font16_gray_light">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffb4b2b3</item>
+    </style>
+
+    <style name="font16_black">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+
+    <style name="font18_black">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+
+    <style name="font18_white">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="font18_gray">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="font20_white">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="font20_gray">
+        <item name="android:textSize">26.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="font22_white">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
 </resources>

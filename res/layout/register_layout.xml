@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_big_repeat"
+    android:orientation="vertical" >
+
+    <include layout="@layout/part_top_login_register" />
+
+    <include layout="@layout/part_layout_register" />
+
+</LinearLayout>

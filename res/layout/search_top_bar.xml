@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_search_cancel"
+        style="@style/layout_wrap_wrap"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="8dip"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_cancel" />
+
+    <include
+        style="@style/layout_wrap_wrap"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn_search_cancel"
+        layout="@layout/part_search_bar" />
+
+</RelativeLayout>  

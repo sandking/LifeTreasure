@@ -6,14 +6,12 @@
 
     <LinearLayout
         android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/layout_match_wrap"
         android:background="@drawable/bg_more_title_bar"
         android:gravity="center_horizontal|center_vertical" >
 
         <include
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/layout_match_wrap"
             layout="@layout/top_search_bar" />
     </LinearLayout>
 
@@ -24,34 +22,29 @@
         android:scrollbarStyle="outsideOverlay" >
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/layout_match_wrap"
             android:orientation="vertical" >
 
             <!-- advert -->
 
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/layout_match_wrap"
                 android:clickable="true"
                 android:gravity="center_vertical" >
 
                 <ImageView
                     android:id="@+id/img_search_advert"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    style="@style/layout_match_wrap" />
             </RelativeLayout>
 
             <!-- separate & business -->
 
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/layout_match_wrap"
                 android:gravity="center_vertical" >
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/layout_match_wrap"
                     android:orientation="horizontal" >
 
                     <RadioGroup
@@ -83,16 +76,14 @@
             <!-- gridview -->
 
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/layout_match_wrap"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:gravity="center_vertical" >
 
                 <com.sk.life.view.SkGridView
                     android:id="@+id/grid_search_content"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/layout_wrap_wrap"
                     android:horizontalSpacing="0.0dip"
                     android:numColumns="3"
                     android:verticalSpacing="0.0dip" />

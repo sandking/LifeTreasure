@@ -12,25 +12,27 @@
         android:background="@drawable/icon_search" />
 
     <EditText
+        android:id="@+id/edit_search_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="30.0dip"
         android:layout_marginRight="30.0dip"
         android:background="@null"
-        android:hint="@string/string_hint_search_business"
-        android:textSize="14dip"
         android:focusable="false"
+        android:hint="@string/string_hint_search_business"
         android:imeOptions="actionSearch"
         android:inputType="text"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:textSize="14dip" />
 
     <Button
+        android:id="@+id/btn_clear_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:visibility="invisible"
-        android:background="@drawable/icon_search_clear" />
+        android:background="@drawable/icon_search_clear"
+        android:visibility="invisible" />
 
 </RelativeLayout>
