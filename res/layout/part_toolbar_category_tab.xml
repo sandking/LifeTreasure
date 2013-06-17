@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ic_district_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/btn_toolbar_menu_tab"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txt_district"
+            style="@style/font16_black"
+            android:layout_width="64.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="全城" />
+
+        <ImageView
+            android:id="@+id/ic_district"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_arrow_down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ic_location_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/btn_toolbar_menu_tab"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_location"
+            style="@style/font16_black"
+            android:layout_width="64.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="500m" />
+
+        <ImageView
+            android:id="@+id/ic_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_arrow_down" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg_tab_line"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/ic_classify_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/btn_toolbar_menu_tab"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_classify"
+            style="@style/font16_black"
+            android:layout_width="64.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="全部分类" />
+
+        <ImageView
+            android:id="@+id/ic_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_arrow_down" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg_tab_line"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/ic_sort_layout_shop_list"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/btn_toolbar_menu_tab"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_sort_shoplist"
+            style="@style/font16_black"
+            android:layout_width="64.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="默认排序" />
+
+        <ImageView
+            android:id="@+id/ic_sort_shoplist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_arrow_down" />
+    </LinearLayout>
+
+</LinearLayout>

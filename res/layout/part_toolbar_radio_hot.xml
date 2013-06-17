@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_wrap"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        style="@style/layout_match_wrap"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radiobtn_search_separate"
+                android:layout_width="fill_parent"
+                android:layout_height="42.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_search_separate_selected"
+                android:button="@null"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_search_business"
+                android:layout_width="fill_parent"
+                android:layout_height="42.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_search_business_normal"
+                android:button="@null" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

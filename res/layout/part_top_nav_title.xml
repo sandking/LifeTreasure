@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_more_title_bar" />
+
+    <Button
+        android:id="@+id/top_back_btn"
+        style="@style/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:background="@drawable/bg_btn_back"
+        android:paddingRight="0.0dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/top_nav_title"
+        style="@style/top_nav_title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text=""
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/top_do_btn"
+        style="@style/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:background="@drawable/btn_comment"
+        android:visibility="gone" />
+
+</RelativeLayout>
