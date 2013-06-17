@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -17,6 +18,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.sk.life.R;
+import com.sk.life.view.ViewUtils;
 
 public class SearchActivity extends Activity implements OnClickListener
 {
@@ -55,6 +57,20 @@ public class SearchActivity extends Activity implements OnClickListener
 	void initData()
 	{
 		mSearch_Histroy_Data = new ArrayList<String>();
+
+		mSearch_Histroy_Data.add("abcde");
+		mSearch_Histroy_Data.add("ddddd");
+		mSearch_Histroy_Data.add("cdeab");
+		mSearch_Histroy_Data.add("lkjdk");
+		mSearch_Histroy_Data.add("abcde");
+		mSearch_Histroy_Data.add("ddddd");
+		mSearch_Histroy_Data.add("cdeab");
+		mSearch_Histroy_Data.add("lkjdk");
+		mSearch_Histroy_Data.add("abcde");
+		mSearch_Histroy_Data.add("ddddd");
+		mSearch_Histroy_Data.add("cdeab");
+		mSearch_Histroy_Data.add("lkjdk");
+
 		mHistroyAdapter = new SearchHistroyAdapter();
 	}
 
@@ -65,8 +81,9 @@ public class SearchActivity extends Activity implements OnClickListener
 		mBtn_Cancel.setOnClickListener(this);
 
 		mList_Histroy.setAdapter(mHistroyAdapter);
+		ViewUtils.setListViewHeightBasedOnChildren(mList_Histroy);
 		mList_Histroy.setSelector(new ColorDrawable(Color.TRANSPARENT));
-		
+
 		int visible = (mSearch_Histroy_Data == null | mSearch_Histroy_Data.isEmpty()) ? View.INVISIBLE : View.VISIBLE;
 		mBtn_Clear_Histroy.setVisibility(visible);
 	}
@@ -87,14 +104,13 @@ public class SearchActivity extends Activity implements OnClickListener
 			break;
 		}
 	}
-	
+
 	@Override
 	public void finish()
 	{
 		super.finish();
 		overridePendingTransition(0, R.anim.search_out);
 	}
-	
 
 	class SearchHistroyAdapter extends BaseAdapter
 	{
@@ -132,11 +148,19 @@ public class SearchActivity extends Activity implements OnClickListener
 			{
 				mHolder = new ViewHolder();
 				convertView = getLayoutInflater().inflate(R.layout.item_search_histroy_list, null);
-				mHolder.txt = (TextView) findViewById(R.id.txt_search_item_histroy_list);
+				mHolder.txt = (TextView) convertView.findViewById(R.id.txt_search_item_histroy_list);
 				convertView.setTag(mHolder);
 			}
 			else mHolder = (ViewHolder) convertView.getTag();
+
+			Log.e(TAG, String.format("Size : %d  ,  Item : %s  ,  Position : %d", mSearch_Histroy_Data.size(), mSearch_Histroy_Data.get(position),position));
+			if (mHolder == null || mHolder.txt == null)
+			{
+				Log.e(TAG, "null");
+			}
+
 			mHolder.txt.setText(mSearch_Histroy_Data.get(position));
+
 			return convertView;
 		}
 	}

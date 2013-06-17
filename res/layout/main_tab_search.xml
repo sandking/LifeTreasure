@@ -39,6 +39,8 @@
 
             <!-- separate & business -->
 
+            <include layout="@layout/part_toolbar_radio_hot" />
+            <!--
             <RelativeLayout
                 style="@style/layout_match_wrap"
                 android:gravity="center_vertical" >
@@ -72,6 +74,8 @@
                     </RadioGroup>
                 </LinearLayout>
             </RelativeLayout>
+            -->
+
 
             <!-- gridview -->
 

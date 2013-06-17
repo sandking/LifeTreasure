@@ -7,7 +7,11 @@
     <color name="color_red">#FFFF0000</color>
     <color name="color_green">#FF00FF00</color>
     <color name="color_blue">#FF0000FF</color>
-
+	
+    <!-- member -->
+    <color name="color_bg_member_card">#fff9f8f4</color>
+    
+    
     <!-- search -->
     <color name="color_search_grid_bg">#FFFFFFFF</color>
     <color name="color_search_grid_txt">#FF000000</color>

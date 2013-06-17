@@ -7,6 +7,19 @@
     <!-- public -->
     <string name="string_more">更多</string>
 
+    <!-- pull to refresh -->
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+
+    <!-- member -->
+    <string name="test_str_store_name">三角烧（新街口店）</string>
+    <string name="test_str_member_info">成为会员</string>
+    <string name="test_str_member_count">已有300位会员</string>
+    <string name="string_sort_default">默认排序</string>
+    <string name="text_more">更多</string>
+
     <!-- search -->
     <string name="string_city_hefei">合肥</string>
     <string name="string_hint_search_business">查找你要的商户</string>

@@ -28,7 +28,7 @@
 
             <ListView
                 android:id="@+id/list_search_histroy"
-                style="@style/layout_match_wrap" />
+                style="@style/layout_match_match" />
 
             <Button
                 android:id="@+id/btn_clear_search_histroy"

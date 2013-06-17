@@ -39,7 +39,6 @@ public class Welcome extends Activity
 	boolean checkFirst()
 	{
 		if (sp == null) sp = getSharedPreferences("Data", MODE_PRIVATE);
-
 		return sp.getBoolean("isFirst", true);
 	}
 

@@ -61,11 +61,16 @@
         <item name="android:textColor">#ffb4b2b3</item>
     </style>
 
+    <style name="font14_gray">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
     <style name="font14_gray_light">
         <item name="android:textSize">14.0dip</item>
         <item name="android:textColor">#ffb4b2b3</item>
     </style>
-    
+
     <style name="font14_black">
         <item name="android:textSize">14.0dip</item>
         <item name="android:textColor">#FF000000</item>
@@ -114,6 +119,38 @@
     <style name="font22_white">
         <item name="android:textSize">22.0dip</item>
         <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="send_button">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="top_nav_title" parent="@style/layout_wrap_wrap">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:maxLength">8</item>
+    </style>
+
+    <style name="pull_to_refresh_list_view">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="android:smoothScrollbar">true</item>
+    </style>
+
+    <style name="gray_title">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+
+    <style name="gray_title_10">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">#ff666666</item>
     </style>
 
 </resources>
